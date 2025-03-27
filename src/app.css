@@ -1,1 +1,25 @@
 @import 'tailwindcss';
+@plugin 'daisyui';
+
+@theme {
+  --color-category-story-reward: rgb(147, 101, 184);
+  --color-category-field-icon: rgb(65, 168, 95);
+  --color-category-treasure-chest: rgb(243, 121, 52);
+  --color-category-chocograph: rgb(194, 144, 62);
+  --color-category-wall-crack: rgb(209, 72, 65);
+  --color-category-ocean-bubble: rgb(44, 130, 201);
+  --color-button-x: rgb(44, 130, 201);
+  --color-button-o: rgb(209, 72, 65);
+}
+
+a {
+  @apply text-primary;
+}
+
+img {
+  @apply h-[16.5px] w-[16.5px] border-none p-0;
+}
+
+thead > tr > th {
+  @apply whitespace-pre-line;
+}
