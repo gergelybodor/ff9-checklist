@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Checkbox from '$lib/components/Checkbox.svelte';
+  import { Checkbox, TrophyBronzeIcon } from '$lib';
 </script>
 
 <div class="flex flex-col gap-8 text-xs">
@@ -167,11 +167,8 @@
             Help Hippaul reach Level 10 during his athletic training. Once you do, then you'll
             receive this from him.
             <div><br /></div>
-            You'll want to do this for the missable trophy<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
+            You'll want to do this for the missable trophy <TrophyBronzeIcon
+              className="inline"
             />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#34-track-star"
               target="_blank"
@@ -187,11 +184,8 @@
             Help Hippaul reach Level 20 during his athletic training. Once you do, then you'll
             receive this from him.
             <div><br /></div>
-            You'll want to do this for the missable trophy<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
+            You'll want to do this for the missable trophy <TrophyBronzeIcon
+              className="inline"
             />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#34-track-star"
               target="_blank"
@@ -207,11 +201,8 @@
             Help Hippaul reach Level 30 during his athletic training. Once you do, then you'll
             receive this from him.
             <div><br /></div>
-            You'll want to do this for the missable trophy<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
+            You'll want to do this for the missable trophy <TrophyBronzeIcon
+              className="inline"
             />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#34-track-star"
               target="_blank"
@@ -227,11 +218,8 @@
             Help Hippaul reach Level 40 during his athletic training. Once you do, then you'll
             receive this from him.
             <div><br /></div>
-            You'll want to do this for the missable trophy<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
+            You'll want to do this for the missable trophy <TrophyBronzeIcon
+              className="inline"
             />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#34-track-star"
               target="_blank"
@@ -247,11 +235,8 @@
             Help Hippaul reach Level 50 during his athletic training. Once you do, then you'll
             receive this from him.
             <div><br /></div>
-            You'll want to do this for the missable trophy<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
+            You'll want to do this for the missable trophy <TrophyBronzeIcon
+              className="inline"
             />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#34-track-star"
               target="_blank"
@@ -267,11 +252,8 @@
             Help Hippaul reach Level 60 during his athletic training. Once you do, then you'll
             receive this from him.
             <div><br /></div>
-            You'll want to do this for the missable trophy<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
+            You'll want to do this for the missable trophy <TrophyBronzeIcon
+              className="inline"
             />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#34-track-star"
               target="_blank"
@@ -287,11 +269,8 @@
             Help Hippaul reach Level 70 during his athletic training. Once you do, then you'll
             receive this from him.
             <div><br /></div>
-            You'll want to do this for the missable trophy<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
+            You'll want to do this for the missable trophy <TrophyBronzeIcon
+              className="inline"
             />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#34-track-star"
               target="_blank"
@@ -307,11 +286,8 @@
             Help Hippaul reach Level 80 during his athletic training. Once you do, then you'll
             receive this from him.
             <div><br /></div>
-            You'll want to do this for the missable trophy<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
+            You'll want to do this for the missable trophy <TrophyBronzeIcon
+              className="inline"
             />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#34-track-star"
               target="_blank"
@@ -796,12 +772,7 @@
           <td>
             This is awarded from Queen Stella after giving her 8 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -815,12 +786,7 @@
           <td>
             This is awarded from Queen Stella after giving her 9 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -834,12 +800,7 @@
           <td>
             This is awarded from Queen Stella after giving her 10 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -853,12 +814,7 @@
           <td>
             This is awarded from Queen Stella after giving her 11 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -1747,12 +1703,7 @@
           <td>
             This is awarded to you by giving the old man on the top floor the Magical Fingertip.<br
             /><br />For more information, refer to
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#17-sword-of-kings"
               target="_blank"
               rel="noreferrer noopener">Sword of Kings</a

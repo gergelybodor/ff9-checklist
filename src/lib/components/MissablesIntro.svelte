@@ -1,3 +1,7 @@
+<script lang="ts">
+  import { TrophyBronzeIcon } from '$lib';
+</script>
+
 <div class="flex flex-col gap-8 text-xs">
   <div class="flex flex-col gap-1">
     <h1 class="text-3xl">Final Fantasy IX - Missable Trophies/Collectibles Guide</h1>
@@ -18,12 +22,7 @@
     Please note that some trophies can be obtained at later times within the game, however, a lot of
     trophies have points of no return so it is best to obtain them as soon as you can. Due to the nature
     of
-    <img
-      alt="Bronze"
-      title="Bronze"
-      src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-      class="input fr-fic fr-dii"
-    />
+    <TrophyBronzeIcon className="inline" />
     <a
       href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/15-beating-the-ragtime-blues"
       target="_blank"
@@ -38,12 +37,7 @@
     <br /><br />
     During your playthrough, you need to obtain nearly every treasure chest, found treasure, and reward
     treasure in the game for
-    <img
-      alt="Bronze"
-      title="Bronze"
-      src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-      class="input fr-fic fr-dii"
-    />
+    <TrophyBronzeIcon className="inline" />
     <a
       href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/21-another-mans-treasure"
       target="_blank"

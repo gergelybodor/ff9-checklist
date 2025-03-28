@@ -8,8 +8,13 @@
   --color-category-chocograph: rgb(194, 144, 62);
   --color-category-wall-crack: rgb(209, 72, 65);
   --color-category-ocean-bubble: rgb(44, 130, 201);
-  --color-button-x: rgb(44, 130, 201);
-  --color-button-o: rgb(209, 72, 65);
+  --color-trophy-gold: rgb(255, 215, 0);
+  --color-trophy-silver: rgb(192, 192, 192);
+  --color-trophy-bronze: rgb(173, 100, 25);
+  --color-playstation-triangle: rgb(107, 228, 223);
+  --color-playstation-circle: rgb(247, 95, 102);
+  --color-playstation-cross: rgb(118, 126, 225);
+  --color-playstation-square: rgb(246, 157, 200);
 }
 
 a {

@@ -1,3 +1,4 @@
+export * from './components/icons';
 export { default as Checkbox } from './components/Checkbox.svelte';
 export { default as Divider } from './components/Divider.svelte';
 export { default as MissablesDisk1 } from './components/MissablesDisk1.svelte';

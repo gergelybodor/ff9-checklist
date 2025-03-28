@@ -1,5 +1,13 @@
 <script>
-  import Checkbox from '$lib/components/Checkbox.svelte';
+  import {
+    ButtonCircleIcon,
+    ButtonCrossIcon,
+    ButtonSquareIcon,
+    Checkbox,
+    TrophyBronzeIcon,
+    TrophyGoldIcon,
+    TrophySilverIcon
+  } from '$lib';
 </script>
 
 <div class="flex flex-col gap-8 text-xs">
@@ -13,12 +21,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="inline-flex"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/24-skip-to-my-lou"
               target="_blank"
@@ -27,12 +30,7 @@
               Skip to my Lou
             </a>
             &amp;
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="inline-flex"
-            />
+            <TrophyGoldIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/23-hail-to-the-king"
               target="_blank"
@@ -46,12 +44,7 @@
             When you first control Vivi, keep navigating until you reach the central square. To the
             left of the screen you will see 3 girls jump roping. Talk to them to begin the jump rope
             minigame. You need to reach 100 successful jumps for
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="inline-flex"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/24-skip-to-my-lou"
               target="_blank"
@@ -59,12 +52,7 @@
             >
               Skip to my Lou
             </a>, and 1000 jumps for
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="inline-flex"
-            />
+            <TrophyGoldIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/23-hail-to-the-king"
               target="_blank"
@@ -83,12 +71,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/25-a-round-of-applause"
               target="_blank"
@@ -112,12 +95,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="inline-flex"
-            />
+            <TrophyGoldIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/39-over-the-moon"
               target="_blank"
@@ -146,12 +124,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="inline-flex"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -228,12 +201,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="inline-flex"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -282,12 +250,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/5-one-nag-too-many"
               target="_blank"
@@ -298,12 +261,7 @@
           </h2>
           <div>
             When you are finally free to navigate the world, hit
-            <img
-              alt="Square"
-              title="Square"
-              src="https://psnprofiles.com/lib/img/icons/buttons/square.svg"
-              class="inline-flex"
-            />
+            <ButtonSquareIcon className="inline" />
             anywhere in the open world to call the save moogle 15 times in a row with clicking cancel
             after each time, and you will earn this trophy.
           </div>
@@ -315,12 +273,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/15-beating-the-ragtime-blues"
               target="_blank"
@@ -334,10 +287,10 @@
           <div>
             Occasionally you will come across a random encounter when navigating through forests
             that has different music and has a guy dancing between an
-            <strong><span class="text-button-x">X</span></strong>
-            and an <strong><span class="text-button-o">O</span></strong>. You need to answer the
-            questions he asks correctly through the end of the game. You can wait to answer these
-            until after getting the airship and do all the questions at once.
+            <ButtonCrossIcon className="m-auto" />
+            and an <ButtonCircleIcon className="m-auto" />. You need to answer the questions he asks
+            correctly through the end of the game. You can wait to answer these until after getting
+            the airship and do all the questions at once.
           </div>
 
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
@@ -358,82 +311,82 @@
                 <tr>
                   <td><Checkbox id="m-btrb-1" /></td>
                   <td>Prima Vista means "Love At First Sight".</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-2" /></td>
                   <td>Conde Petie is a village of Goblins.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-3" /></td>
                   <td>Only one desert exists in the entire world.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-4" /></td>
                   <td>Fossil Roo is a tunnel that connects Treno to Alexandra.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-5" /></td>
                   <td>"I Want To Be Your Canary" was written by Lord Afon.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-6" /></td>
                   <td>The Theatre Ship "Prima Vista" was built in Artania Shipyards.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-7" /></td>
                   <td>The 15th Lindblum War started in 1600.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-8" /></td>
                   <td>Bobo Bird is a bird that brings fortune.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-9" /></td>
                   <td>Treno's Cafe, "Cafe Carta", is Members Only.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-10" /></td>
                   <td>Lindblums Air Cabs operate around the clock.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-11" /></td>
                   <td>Berkmea Cable Cars have been running for eight years.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-12" /></td>
                   <td>Theatre Ship "Prima Vista" uses Mist as its source of energy.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-13" /></td>
                   <td>Some Mus are friendly and do not attack.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-14" /></td>
                   <td>Lindblum Castle is larger than Alexandria Castle.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-15" /></td>
                   <td>Chocobo Forest is located between Lindblum and South Gate.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-16" /></td>
                   <td>You can defeat Ragtimer. (Last Question).</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
               </tbody>
             </table>
@@ -446,12 +399,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/16-mister-nice-guy"
               target="_blank"
@@ -481,12 +429,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/51-your-lucky-day"
               target="_blank"
@@ -509,12 +452,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="inline-flex"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -581,12 +519,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/20-whats-your-sign"
               target="_blank"
@@ -595,12 +528,7 @@
               What's your Sign
             </a>
             &amp;
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/19-earning-the-queens-favor"
               target="_blank"
@@ -630,12 +558,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="inline-flex"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -702,12 +625,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/26-a-hunting-we-will-go"
               target="_blank"
@@ -739,12 +657,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/18-my-little-airship"
               target="_blank"
@@ -773,12 +686,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="inline-flex"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -791,12 +699,7 @@
           <div>
             You need to go to Qu's Marsh before you go to Burmecia and have Quina join your party
             for an ATE in
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="inline-flex"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -813,12 +716,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/12-going-for-the-gold"
               target="_blank"
@@ -847,12 +745,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/20-whats-your-sign"
               target="_blank"
@@ -860,12 +753,7 @@
             >
               What's your Sign
             </a> <span style="text-align:justify;"> &amp; </span>
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/19-earning-the-queens-favor"
               target="_blank"
@@ -889,12 +777,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="inline-flex"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -908,12 +791,7 @@
             You must rescue the Burmecian family in the building after the bell door and up the
             stairs. You MUST not take the stairs to the right. You must enter the front door and
             talk to the Burmecians to ensure you receive an ATE for
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="inline-flex"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -930,12 +808,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="inline-flex"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/3-driving-the-hard-bargain"
               target="_blank"

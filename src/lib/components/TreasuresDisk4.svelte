@@ -1,5 +1,11 @@
 <script lang="ts">
-  import Checkbox from '$lib/components/Checkbox.svelte';
+  import {
+    ButtonCrossIcon,
+    Checkbox,
+    TrophyBronzeIcon,
+    TrophyGoldIcon,
+    TrophySilverIcon
+  } from '$lib';
 </script>
 
 <div class="flex flex-col gap-8 text-xs">
@@ -29,12 +35,7 @@
           <td>
             This is given to you by Stiltzkin after purchasing his final set of items.<br /><br
             />For more information, refer to
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#6-driving-the-hard-bargain"
               target="_blank"
               rel="noreferrer noopener">Driving The Hard Bargain</a
@@ -50,12 +51,7 @@
             in-a-row. Note that this can be obtained at any point in the game on any disc. Note that
             this can be obtained at any point in the game on any disc.<br /><br />For more
             information, refer to
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyGoldIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#26-hail-to-the-king"
               target="_blank"
               rel="noreferrer noopener">Hail To The King</a
@@ -70,12 +66,7 @@
             This is given to you after skipping the Rope in the Jump Rope Mini-Game 50 times
             in-a-row. Note that this can be obtained at any point in the game on any disc.<br /><br
             />For more information, refer to
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyGoldIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#26-hail-to-the-king"
               target="_blank"
               rel="noreferrer noopener">Hail To The King</a
@@ -90,12 +81,7 @@
             This is given to you after skipping the Rope in the Jump Rope Mini-Game 100 times
             in-a-row. Note that this can be obtained at any point in the game on any disc.<br /><br
             />For more information, refer to
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyGoldIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#26-hail-to-the-king"
               target="_blank"
               rel="noreferrer noopener">Hail To The King</a
@@ -110,12 +96,7 @@
             This is given to you after skipping the Rope in the Jump Rope Mini-Game 200 times
             in-a-row. Note that this can be obtained at any point in the game on any disc.<br /><br
             />For more information, refer to
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyGoldIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#26-hail-to-the-king"
               target="_blank"
               rel="noreferrer noopener">Hail To The King</a
@@ -130,12 +111,7 @@
             This is given to you after skipping the Rope in the Jump Rope Mini-Game 300 times
             in-a-row. Note that this can be obtained at any point in the game on any disc.<br /><br
             />For more information, refer to
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyGoldIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#26-hail-to-the-king"
               target="_blank"
               rel="noreferrer noopener">Hail To The King</a
@@ -150,12 +126,7 @@
             This is given to you after skipping the Rope in the Jump Rope Mini-Game 1,000 times
             in-a-row. Note that this can be obtained at any point in the game on any disc.<br /><br
             />For more information, refer to
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyGoldIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#26-hail-to-the-king"
               target="_blank"
               rel="noreferrer noopener">Hail To The King</a
@@ -169,12 +140,7 @@
           <td>
             This is given to you by Ruby at Ruby's Theatre after delivering every letter needed for
             the MogNet Central side quest.<br /><br />For more information, refer to
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#12-back-online"
               target="_blank"
               rel="noreferrer noopener">Back Online</a
@@ -290,12 +256,7 @@
           <td>
             This is awarded from Queen Stella after giving her 12 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to<TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -309,12 +270,7 @@
           <td>
             This is awarded from Queen Stella after giving her Ophiuchus, the final Stellazio Coin.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to<TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -330,12 +286,7 @@
               ><em>defeating the Behemoth in the Treno Weapon Shop.</em></strong
             ><br /><br />Be sure to defeat the Behemoth as Dagger so you can grab the missable
             trophy
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#25-dragon-lady"
               target="_blank"
               rel="noreferrer noopener">Dragon Lady</a
@@ -463,12 +414,7 @@
           <td>
             Once you defeat <strong>Lich</strong>, what you'll need to do is go to the right side of
             his room and you will notice a <strong>"!"</strong> icon. Press
-            <img
-              alt="Cross"
-              title="Cross"
-              src="https://psnprofiles.com/lib/img/icons/buttons/cross.svg"
-              class="input fr-fic fr-dii"
-            />
+            <ButtonCrossIcon className="inline" />
             and you will be granted a text box about the history of the name of Excalibur II. After that,
             you will be awarded this item.
             <strong
@@ -477,12 +423,7 @@
                 in-game time</em
               ></strong
             >. For more information on this missable item and trophy, then refer to
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyGoldIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#49-the-ultimate-sword"
               target="_blank"
               rel="noreferrer noopener">The Ultimate Sword</a
@@ -520,12 +461,7 @@
             This can be found <strong><em>at the same location as where 'Scorpio' was</em></strong>,
             but only when you have found the other 12 Stellazio and have given them to Queen Stella.<br
             /><br />For more information, refer to
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -562,12 +498,7 @@
           <td>
             This is awarded to you from Artmecion for restoring the machine's power in MogNet
             Central.<br /><br />For more information, refer to
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#12-back-online"
               target="_blank"
               rel="noreferrer noopener">Back Online</a
@@ -583,12 +514,7 @@
     <p>
       All of these can be found in the overworld once you have obtained the Ocean and Sea Chocobo.
       For more information on obtaining the these types of Chocobo, then refer to
-      <img
-        alt="Bronze"
-        title="Bronze"
-        src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-        class="input fr-fic fr-dii"
-      />
+      <TrophyBronzeIcon className="inline" />
       <a
         href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#11-diggin-it"
         target="_blank"
@@ -688,12 +614,7 @@
     <p>
       All of these can be found in the overworld once you have obtained the Mountain Chocobo. For
       more information on obtaining this type of Chocobo, then refer to
-      <img
-        alt="Bronze"
-        title="Bronze"
-        src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-        class="input fr-fic fr-dii"
-      />
+      <TrophyBronzeIcon className="inline" />
       <a
         href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#11-diggin-it"
         target="_blank"
@@ -785,12 +706,7 @@
           <td>
             This is awarded to you after you have defeated Ozma.<br /><br />For more information,
             then refer to
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophySilverIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#20-to-ozma-and-back"
               target="_blank"
               rel="noreferrer noopener">To Ozma and Back</a
@@ -804,12 +720,7 @@
           <td>
             This is awarded to you after you have defeated Ozma.<br /><br />For more information,
             then refer to
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophySilverIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#20-to-ozma-and-back"
               target="_blank"
               rel="noreferrer noopener">To Ozma and Back</a
@@ -826,12 +737,7 @@
       All of the following Items/Treasures are tied to finding all the Chocograph Treasures. for
       more information in regards to digging up Chocographs and their respective treasures, then
       refer to
-      <img
-        alt="Bronze"
-        title="Bronze"
-        src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-        class="input fr-fic fr-dii"
-      />
+      <TrophyBronzeIcon className="inline" />
       <a
         href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#11-diggin-it"
         target="_blank"
@@ -1037,12 +943,7 @@
           <td>
             This is awarded to you from Fat Chocobo once you have dug up all 24 Chocographs in the
             overworld.<br /><br />For more information, then refer to
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#11-diggin-it"
               target="_blank"
               rel="noreferrer noopener">Diggin' It</a

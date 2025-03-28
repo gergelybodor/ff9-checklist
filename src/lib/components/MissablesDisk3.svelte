@@ -1,5 +1,12 @@
 <script>
-  import Checkbox from '$lib/components/Checkbox.svelte';
+  import {
+    ButtonCircleIcon,
+    ButtonSquareIcon,
+    Checkbox,
+    TrophyBronzeIcon,
+    TrophyGoldIcon,
+    TrophySilverIcon
+  } from '$lib';
 </script>
 
 <div class="flex flex-col gap-8 text-xs">
@@ -13,12 +20,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -86,12 +88,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/31-track-star"
               target="_blank"
@@ -104,19 +101,9 @@
           <div>
             In the initial path that goes north and south, you will see Hippaul and his mother. Talk
             to his mother to begin a running mini-game which you need to alternate
-            <img
-              alt="Circle"
-              title="Circle"
-              src="https://psnprofiles.com/lib/img/icons/buttons/circle.svg"
-              class="input fr-fic fr-dii"
-            />
+            <ButtonCircleIcon className="inline" />
             and
-            <img
-              alt="Square"
-              title="Square"
-              src="https://psnprofiles.com/lib/img/icons/buttons/square.svg"
-              class="input fr-fic fr-dii"
-            />
+            <ButtonSquareIcon className="inline" />
             to run. You need to get Hippaul to level 80 to earn this trophy. If you beat him via a large
             margin, it will net you 5 levels. If you beat him narrowly, it will net you 1 level.
           </div>
@@ -129,12 +116,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/32-found-in-the-shuffle"
               target="_blank"
@@ -158,12 +140,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/20-whats-your-sign"
               target="_blank"
@@ -172,12 +149,7 @@
               What's your Sign
             </a>
             &amp;
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/19-earning-the-queens-favor"
               target="_blank"
@@ -201,12 +173,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/3-driving-the-hard-bargain"
               target="_blank"
@@ -232,12 +199,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -332,12 +294,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/14-sword-of-kings"
               target="_blank"
@@ -363,12 +320,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/18-my-little-airship"
               target="_blank"
@@ -402,12 +354,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -499,12 +446,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/20-whats-your-sign"
               target="_blank"
@@ -513,12 +455,7 @@
               What's your Sign
             </a>
             &amp;
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/19-earning-the-queens-favor"
               target="_blank"
@@ -547,12 +484,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/16-mister-nice-guy"
               target="_blank"
@@ -578,12 +510,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyGoldIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/39-over-the-moon"
               target="_blank"
@@ -595,12 +522,7 @@
           </h2>
           <div>
             Obtained from the Jabberwock when trading him an emerald for
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/16-mister-nice-guy"
               target="_blank"
@@ -625,12 +547,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/3-driving-the-hard-bargain"
               target="_blank"
@@ -658,12 +575,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/16-mister-nice-guy"
               target="_blank"
@@ -693,12 +605,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -751,12 +658,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/20-whats-your-sign"
               target="_blank"
@@ -765,12 +667,7 @@
               What's your Sign
             </a>
             &amp;
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/19-earning-the-queens-favor"
               target="_blank"
@@ -800,12 +697,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/19-earning-the-queens-favor"
               target="_blank"
@@ -833,12 +725,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"
@@ -897,12 +784,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/3-driving-the-hard-bargain"
               target="_blank"
@@ -931,12 +813,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Silver"
-              title="Silver"
-              src="https://psnprofiles.com/lib/img/icons/buttons/silver.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophySilverIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/38-movie-critic"
               target="_blank"

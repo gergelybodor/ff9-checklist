@@ -1,5 +1,11 @@
 <script>
-  import Checkbox from '$lib/components/Checkbox.svelte';
+  import {
+    ButtonCircleIcon,
+    ButtonCrossIcon,
+    Checkbox,
+    TrophyBronzeIcon,
+    TrophyGoldIcon
+  } from '$lib';
 </script>
 
 <div class="flex flex-col gap-8 text-xs">
@@ -13,12 +19,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/20-whats-your-sign"
               target="_blank"
@@ -47,12 +48,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/16-mister-nice-guy"
               target="_blank"
@@ -76,12 +72,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/16-mister-nice-guy"
               target="_blank"
@@ -104,12 +95,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/45-the-ultimate-fork"
               target="_blank"
@@ -131,12 +117,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/47-the-ultimate-rod"
               target="_blank"
@@ -157,12 +138,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/48-the-ultimate-racket"
               target="_blank"
@@ -184,12 +160,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/49-the-ultimate-dual-blade"
               target="_blank"
@@ -211,12 +182,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/15-beating-the-ragtime-blues"
               target="_blank"
@@ -228,9 +194,9 @@
           <p>
             Occasionally you will come across a random encounter when navigating through forests
             that has different music and has a guy dancing between an
-            <strong><span class="text-button-x">X</span></strong>
-            and an <strong><span class="text-button-o">O</span></strong>. You need to answer the
-            questions he asks correctly through the end of the game.
+            <ButtonCrossIcon className="m-auto" />
+            and an <ButtonCircleIcon className="m-auto" />. You need to answer the questions he asks
+            correctly through the end of the game.
           </p>
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
@@ -250,82 +216,82 @@
                 <tr>
                   <td><Checkbox id="m-btrb-1" /></td>
                   <td>Prima Vista means "Love At First Sight".</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-2" /></td>
                   <td>Conde Petie is a village of Goblins.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-3" /></td>
                   <td>Only one desert exists in the entire world.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-4" /></td>
                   <td>Fossil Roo is a tunnel that connects Treno to Alexandra.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-5" /></td>
                   <td>"I Want To Be Your Canary" was written by Lord Afon.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-6" /></td>
                   <td>The Theatre Ship "Prima Vista" was built in Artania Shipyards.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-7" /></td>
                   <td>The 15th Lindblum War started in 1600.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-8" /></td>
                   <td>Bobo Bird is a bird that brings fortune.</td>
-                  <td><strong><span class="text-button-x">X</span></strong></td>
+                  <td><ButtonCrossIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-9" /></td>
                   <td>Treno's Cafe, "Cafe Carta", is Members Only.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-10" /></td>
                   <td>Lindblums Air Cabs operate around the clock.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-11" /></td>
                   <td>Berkmea Cable Cars have been running for eight years.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-12" /></td>
                   <td>Theatre Ship "Prima Vista" uses Mist as its source of energy.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-13" /></td>
                   <td>Some Mus are friendly and do not attack.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-14" /></td>
                   <td>Lindblum Castle is larger than Alexandria Castle.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-15" /></td>
                   <td>Chocobo Forest is located between Lindblum and South Gate.</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
                 <tr>
                   <td><Checkbox id="m-btrb-16" /></td>
                   <td>You can defeat Ragtimer. (Last Question).</td>
-                  <td><strong><span class="text-button-o">O</span></strong></td>
+                  <td><ButtonCircleIcon className="m-auto" /></td>
                 </tr>
               </tbody>
             </table>
@@ -345,12 +311,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/4-cracking-the-code"
               target="_blank"
@@ -401,12 +362,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/3-driving-the-hard-bargain"
               target="_blank"
@@ -426,12 +382,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/9-back-online"
               target="_blank"
@@ -455,12 +406,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyGoldIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/39-over-the-moon"
               target="_blank"
@@ -472,12 +418,7 @@
           </h2>
           <div>
             Purchased from Stiltzkin in Alexandria's Temple as part of
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/3-driving-the-hard-bargain"
               target="_blank"
@@ -502,12 +443,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/9-back-online"
               target="_blank"
@@ -535,12 +471,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/9-back-online"
               target="_blank"
@@ -570,12 +501,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/9-back-online"
               target="_blank"
@@ -605,12 +531,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/9-back-online"
               target="_blank"
@@ -639,12 +560,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/9-back-online"
               target="_blank"
@@ -667,12 +583,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/20-whats-your-sign"
               target="_blank"
@@ -695,12 +606,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/14-sword-of-kings"
               target="_blank"
@@ -733,12 +639,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/9-back-online"
               target="_blank"
@@ -762,12 +663,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/10-well-lubricated"
               target="_blank"
@@ -778,12 +674,7 @@
           </h2>
           <div>
             As part of the
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/9-back-online"
               target="_blank"
@@ -810,12 +701,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/9-back-online"
               target="_blank"
@@ -826,12 +712,7 @@
           </h2>
           <div>
             After delivering the letters and obtaining the <strong>Superslick</strong> as part of
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/10-well-lubricated"
               target="_blank"
@@ -855,12 +736,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/20-whats-your-sign"
               target="_blank"
@@ -890,12 +766,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/20-whats-your-sign"
               target="_blank"
@@ -917,12 +788,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/22-dragon-lady"
               target="_blank"
@@ -950,12 +816,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/40-kains-legacy"
               target="_blank"
@@ -981,12 +842,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/41-close-but-no-cigar"
               target="_blank"
@@ -1010,12 +866,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/42-the-ultimate-claws"
               target="_blank"
@@ -1038,12 +889,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/43-the-ultimate-flute"
               target="_blank"
@@ -1067,12 +913,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyBronzeIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/44-the-ultimate-mace"
               target="_blank"
@@ -1095,12 +936,7 @@
         </div>
         <div class="flex flex-col gap-2">
           <h2 class="flex flex-wrap items-center gap-1 text-lg">
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />
+            <TrophyGoldIcon className="inline" />
             <a
               href="https://psnprofiles.com/trophy/6669-final-fantasy-ix/46-the-ultimate-sword"
               target="_blank"

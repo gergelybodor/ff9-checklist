@@ -1,3 +1,7 @@
+<script>
+  import { TrophyBronzeIcon } from '$lib';
+</script>
+
 <div class="flex flex-col gap-8 text-xs">
   <div class="flex flex-col gap-1">
     <h1 class="text-3xl">Final Fantasy IX - Rank S Treasure Hunter Guide</h1>
@@ -7,12 +11,7 @@
   </div>
   <div>
     For
-    <img
-      alt="Bronze"
-      title="Bronze"
-      src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-      class="input fr-fic fr-dii"
-    />
+    <TrophyBronzeIcon className="inline" />
     <a
       href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#24-another-mans-treasure"
       target="_blank"

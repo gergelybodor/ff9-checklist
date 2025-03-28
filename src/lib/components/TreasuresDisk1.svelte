@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Checkbox from '$lib/components/Checkbox.svelte';
+  import { Checkbox, TrophyBronzeIcon, TrophyGoldIcon } from '$lib';
 </script>
 
 <div class="flex flex-col gap-8 text-xs">
@@ -351,23 +351,13 @@
             >.
             <div><br /></div>
             while you're playing the Noble Game, be sure to aim for a high number so that you can get
-            the missable trophy<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            the missable trophy <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#28-a-round-of-applause"
               target="_blank"
               rel="noreferrer noopener">A Round of Applause</a
             >. For more information, refer to the trophy entry.<br /><br />Also, this is one of the
             four Moonstones needed for the missable trophy
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyGoldIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#42-over-the-moon"
               target="_blank"
               rel="noreferrer noopener">Over The Moon</a
@@ -1681,12 +1671,7 @@
     <p>
       All items that are gathered here are linked to capturing the frogs that reside around the
       Marsh area. For more information on capturing frogs, then refer to
-      <img
-        alt="Bronze"
-        title="Bronze"
-        src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-        class="input fr-fic fr-dii"
-      />
+      <TrophyBronzeIcon className="inline" />
       <a
         href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#14-frog-wrangler"
         target="_blank"

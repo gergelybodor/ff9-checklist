@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Checkbox from '$lib/components/Checkbox.svelte';
+  import { Checkbox, TrophyBronzeIcon, TrophyGoldIcon } from '$lib';
 </script>
 
 <div class="flex flex-col gap-8 text-xs">
@@ -264,12 +264,7 @@
           <td>
             This is awarded from Queen Stella after giving her 1 Stellazio Coin.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -283,12 +278,7 @@
           <td>
             This is awarded from Queen Stella after giving her 2 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -302,12 +292,7 @@
           <td>
             This is awarded from Queen Stella after giving her 3 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -321,12 +306,7 @@
           <td>
             This is awarded from Queen Stella after giving her 4 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -340,12 +320,7 @@
           <td>
             This is awarded from Queen Stella after giving her 5 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -359,12 +334,7 @@
           <td>
             This is awarded from Queen Stella after giving her 6 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -378,12 +348,7 @@
           <td>
             This is awarded from Queen Stella after giving her 7 Stellazio Coins.
             <div><br /></div>
-            For more information, refer to<img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            For more information, refer to <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#23-whats-your-sign"
               target="_blank"
               rel="noreferrer noopener">What's Your Sign?</a
@@ -931,12 +896,7 @@
           <td>
             This is awarded after talking to one of the surviving residents of Cleyra after
             escorting them to safety.<br /><br />You will want to do this for the missable trophy
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#55-out-of-harms-way"
               target="_blank"
               rel="noreferrer noopener">Out of Harm's Way</a
@@ -950,12 +910,7 @@
           <td>
             This is awarded after talking to one of the surviving residents of Cleyra after
             escorting them to safety.<br /><br />You will want to do this for the missable trophy
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#55-out-of-harms-way"
               target="_blank"
               rel="noreferrer noopener">Out of Harm's Way</a
@@ -969,12 +924,7 @@
           <td>
             This is awarded after talking to one of the surviving residents of Cleyra after
             escorting them to safety.<br /><br />You will want to do this for the missable trophy
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#55-out-of-harms-way"
               target="_blank"
               rel="noreferrer noopener">Out of Harm's Way</a
@@ -988,12 +938,7 @@
           <td>
             This is awarded after talking to one of the surviving residents of Cleyra after
             escorting them to safety.<br /><br />You will want to do this for the missable trophy
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#55-out-of-harms-way"
               target="_blank"
               rel="noreferrer noopener">Out of Harm's Way</a
@@ -1007,12 +952,7 @@
           <td>
             This is awarded after talking to one of the surviving residents of Cleyra after
             escorting them to safety.<br /><br />You will want to do this for the missable trophy
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#55-out-of-harms-way"
               target="_blank"
               rel="noreferrer noopener">Out of Harm's Way</a
@@ -1026,12 +966,7 @@
           <td>
             This is awarded after talking to one of the surviving residents of Cleyra after
             escorting them to safety.<br /><br />You will want to do this for the missable trophy
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#55-out-of-harms-way"
               target="_blank"
               rel="noreferrer noopener">Out of Harm's Way</a
@@ -1045,12 +980,7 @@
           <td>
             This is awarded after talking to one of the surviving residents of Cleyra after
             escorting them to safety.<br /><br />You will want to do this for the missable trophy
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#55-out-of-harms-way"
               target="_blank"
               rel="noreferrer noopener">Out of Harm's Way</a
@@ -1219,12 +1149,7 @@
           <td>
             This can be found via the mining mini-game.<br /><br />You will want to get this for the
             missable trophy
-            <img
-              alt="Bronze"
-              title="Bronze"
-              src="https://psnprofiles.com/lib/img/icons/buttons/bronze.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyBronzeIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#32-the-one-ring"
               target="_blank"
               rel="noreferrer noopener">The One Ring</a
@@ -1458,12 +1383,7 @@
               ><em>after placing the Red, Blue, Yellow, and Green stones inside the altar</em
               ></strong
             >.<br /><br />This is one of the four Moonstones needed for the missable trophy
-            <img
-              alt="Gold"
-              title="Gold"
-              src="https://psnprofiles.com/lib/img/icons/buttons/gold.png"
-              class="input fr-fic fr-dii"
-            />&nbsp;<a
+            <TrophyGoldIcon className="inline" />&nbsp;<a
               href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#42-over-the-moon"
               target="_blank"
               rel="noreferrer noopener">Over The Moon</a
