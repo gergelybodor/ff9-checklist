@@ -31,34 +31,46 @@
 
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Active Time Event</strong></th>
-                  <th class="w-1/2"><strong>Requirements / Notes</strong></th>
+                  <th></th>
+                  <th><strong>Active Time Event</strong></th>
+                  <th><strong>Requirements / Notes</strong></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-mc-53" /></td>
                   <td>It's So Big</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-54" /></td>
                   <td>Long Time No See</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-55" /></td>
                   <td>To Fly High</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-56" /></td>
                   <td>Artemicion</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-57" /></td>
                   <td>I Forgot!</td>
                   <td>After Vivi rejoins with Zidane</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-58" /></td>
                   <td>Clowns on a Dark Night</td>
                   <td>Plays Automatically Through Story Progression </td>
                 </tr>
@@ -238,18 +250,26 @@
 
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Active Time Event</strong></th>
-                  <th class="w-1/2"><strong>Requirements / Notes</strong></th>
+                  <th></th>
+                  <th><strong>Active Time Event</strong></th>
+                  <th><strong>Requirements / Notes</strong></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-mc-59" /></td>
                   <td>Eiko Talks Life</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-60" /></td>
                   <td>How We Ended Up Here</td>
                   <td>
                     Can choose any option given during ATE, though it affects which ATE you get
@@ -258,10 +278,12 @@
                   </td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-61" /></td>
                   <td>Memories By The Water</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-62" /></td>
                   <td>City People</td>
                   <td>
                     After watching "Memories by the Water", navigate to the card tournament
@@ -269,6 +291,7 @@
                   </td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-63" /></td>
                   <td>Good Old Days</td>
                   <td>
                     Must win the first card tournament match, and before the second card tournament,
@@ -276,20 +299,24 @@
                   </td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-64" /></td>
                   <td>Lessons of Life</td>
                   <td>Must have selected "of Course I'm Interested" in "Good Old Days"</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-65" /></td>
                   <td>Home Sweet Home / Hippo's Prize</td>
                   <td>
                     Affected by the choice you made in "How We Ended Up Here".Only one is needed.
                   </td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-66" /></td>
                   <td>Hallucination</td>
                   <td>After you win the second card tournament match</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-67" /></td>
                   <td>Premonition</td>
                   <td>After you win the second card tournament match</td>
                 </tr>
@@ -397,14 +424,21 @@
           </div>
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Active Time Event</strong></th>
-                  <th class="w-1/2"><strong>Requirements / Notes</strong></th>
+                  <th></th>
+                  <th><strong>Active Time Event</strong></th>
+                  <th><strong>Requirements / Notes</strong></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-mc-68" /></td>
                   <td>My Bad</td>
                   <td>
                     When talking to Blank in the the bedroom, select "Where's Dagger?" then navigate
@@ -413,22 +447,27 @@
                   </td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-69" /></td>
                   <td>Something Washed Ashore</td>
                   <td>Must have seen "Hallucination" in Treno</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-70" /></td>
                   <td>Self-Reproach</td>
                   <td>Plays Automatically Through Story Progression</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-71" /></td>
                   <td>Deep Anger</td>
                   <td>Plays Automatically Through Story Progression</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-72" /></td>
                   <td>My Hammer</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-73" /></td>
                   <td>The Rally</td>
                   <td>
                     When in the Theatre District, talk to the Burmecians on the left. You must have
@@ -436,10 +475,12 @@
                   </td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-74" /></td>
                   <td>No Free Lunch</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-75" /></td>
                   <td>Give Me My Money</td>
                   <td>
                     You must have less than 50 Gil when entering the Business District area with the
@@ -669,18 +710,26 @@
           </h2>
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Active Time Event</strong></th>
-                  <th class="w-1/2"><strong>Requirements / Notes</strong></th>
+                  <th></th>
+                  <th><strong>Active Time Event</strong></th>
+                  <th><strong>Requirements / Notes</strong></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-mc-76" /></td>
                   <td>Team</td>
                   <td>Plays Automatically Through Story Progression</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-77" /></td>
                   <td>Recovery</td>
                   <td>Plays Automatically Through Story Progression</td>
                 </tr>
@@ -801,26 +850,36 @@
           </h2>
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Active Time Event</strong></th>
-                  <th class="w-1/2"><strong>Requirements / Notes</strong></th>
+                  <th></th>
+                  <th><strong>Active Time Event</strong></th>
+                  <th><strong>Requirements / Notes</strong></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-mc-78" /></td>
                   <td>Place to Call home</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-79" /></td>
                   <td>Where the Heart Is</td>
                   <td>After watching "Place to Call Home", navigate out of the inn</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-80" /></td>
                   <td>Came Into the World</td>
                   <td>After watching "Where the Heart Is", navigate north-right one screen</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-81" /></td>
                   <td>The Truth</td>
                   <td>
                     After watching "Came Into the World", navigate south and then left up the steps.
@@ -889,14 +948,21 @@
           </h2>
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Active Time Event</strong></th>
-                  <th class="w-1/2"><strong>Requirements / Notes</strong></th>
+                  <th></th>
+                  <th><strong>Active Time Event</strong></th>
+                  <th><strong>Requirements / Notes</strong></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-mc-82" /></td>
                   <td>The Lift</td>
                   <td>
                     Navigate back and forth from the elevator shaft to the lift mechanism room until

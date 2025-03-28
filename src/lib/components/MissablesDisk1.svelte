@@ -162,38 +162,51 @@
           </h2>
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Active Time Event</strong><br /></th>
-                  <th class="w-1/2"><strong>Requirements / Notes</strong><br /></th>
+                  <th></th>
+                  <th><strong>Active Time Event</strong><br /></th>
+                  <th><strong>Requirements / Notes</strong><br /></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-mc-1" /></td>
                   <td>The Forest Keeper</td>
                   <td>Plays Automatically Through Story Progression</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-2" /></td>
                   <td>Time to Escape</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-3" /></td>
                   <td>Girl Who Was Left Behind</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-4" /></td>
                   <td>My Little Baby</td>
                   <td>Must have seen "Time to Escape"</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-5" /></td>
                   <td>Orchestra in the Forest</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-6" /></td>
                   <td>Do As I Say, Not As I Do</td>
                   <td>Plays Automatically Through Story Progression</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-7" /></td>
                   <td>Teach Me, Mogster! Lession 1</td>
                   <td>Technically not required</td>
                 </tr>
@@ -233,14 +246,21 @@
 
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Active Time Event</strong><br /></th>
-                  <th class="w-1/2"><strong>Requirements / Notes</strong><br /></th>
+                  <th></th>
+                  <th><strong>Active Time Event</strong><br /></th>
+                  <th><strong>Requirements / Notes</strong><br /></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-mc-8" /></td>
                   <td>Teach Me, Mogster! Lession 2</td>
                   <td>Technically not required</td>
                 </tr>
@@ -322,108 +342,98 @@
 
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Question</strong><br /></th>
-                  <th class="w-1/2"><strong>Answer</strong><br /></th>
+                  <th></th>
+                  <th>Question</th>
+                  <th>Answer</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-btrb-1" /></td>
                   <td>Prima Vista means "Love At First Sight".</td>
-                  <td>
-                    <strong><span class="text-button-x">X</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-x">X</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-2" /></td>
                   <td>Conde Petie is a village of Goblins.</td>
-                  <td>
-                    <strong><span class="text-button-x">X</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-x">X</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-3" /></td>
                   <td>Only one desert exists in the entire world.</td>
-                  <td>
-                    <strong><span class="text-button-x">X</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-x">X</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-4" /></td>
                   <td>Fossil Roo is a tunnel that connects Treno to Alexandra.</td>
-                  <td>
-                    <strong><span class="text-button-x">X</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-x">X</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-5" /></td>
                   <td>"I Want To Be Your Canary" was written by Lord Afon.</td>
-                  <td>
-                    <strong><span class="text-button-x">X</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-x">X</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-6" /></td>
                   <td>The Theatre Ship "Prima Vista" was built in Artania Shipyards.</td>
-                  <td>
-                    <strong><span class="text-button-x">X</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-x">X</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-7" /></td>
                   <td>The 15th Lindblum War started in 1600.</td>
-                  <td>
-                    <strong><span class="text-button-x">X</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-x">X</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-8" /></td>
                   <td>Bobo Bird is a bird that brings fortune.</td>
-                  <td>
-                    <strong><span class="text-button-x">X</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-x">X</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-9" /></td>
                   <td>Treno's Cafe, "Cafe Carta", is Members Only.</td>
-                  <td>
-                    <strong><span class="text-button-o">O</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-o">O</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-10" /></td>
                   <td>Lindblums Air Cabs operate around the clock.</td>
-                  <td>
-                    <strong><span class="text-button-o">O</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-o">O</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-11" /></td>
                   <td>Berkmea Cable Cars have been running for eight years.</td>
-                  <td>
-                    <strong><span class="text-button-o">O</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-o">O</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-12" /></td>
                   <td>Theatre Ship "Prima Vista" uses Mist as its source of energy.</td>
-                  <td>
-                    <strong><span class="text-button-o">O</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-o">O</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-13" /></td>
                   <td>Some Mus are friendly and do not attack.</td>
-                  <td>
-                    <strong><span class="text-button-o">O</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-o">O</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-14" /></td>
                   <td>Lindblum Castle is larger than Alexandria Castle.</td>
-                  <td>
-                    <strong><span class="text-button-o">O</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-o">O</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-15" /></td>
                   <td>Chocobo Forest is located between Lindblum and South Gate.</td>
-                  <td>
-                    <strong><span class="text-button-o">O</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-o">O</span></strong></td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-btrb-16" /></td>
                   <td>You can defeat Ragtimer. (Last Question).</td>
-                  <td>
-                    <strong><span class="text-button-o">O</span></strong>
-                  </td>
+                  <td><strong><span class="text-button-o">O</span></strong></td>
                 </tr>
               </tbody>
             </table>
@@ -517,34 +527,46 @@
 
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Active Time Event</strong></th>
-                  <th class="w-1/2"><strong>Requirements / Notes</strong></th>
+                  <th></th>
+                  <th><strong>Active Time Event</strong></th>
+                  <th><strong>Requirements / Notes</strong></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-mc-9" /></td>
                   <td>Vivi, Confused</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-10" /></td>
                   <td>Dagger Tries</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-11" /></td>
                   <td>Cat's Eye</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-12" /></td>
                   <td>Cat's Eye 2</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-13" /></td>
                   <td>Dagger Tries Harder</td>
                   <td>Must have seen "Dagger Tries".</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-14" /></td>
                   <td>Queen Brahne's Steiner</td>
                   <td>Plays Automatically Through Story Progression</td>
                 </tr>
@@ -626,34 +648,46 @@
 
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">
+              <colgroup>
+                <col style="width: 6%" />
+                <col style="width: 47%" />
+                <col style="width: 47%" />
+              </colgroup>
               <thead>
                 <tr>
-                  <th class="w-1/2"><strong>Active Time Event</strong></th>
-                  <th class="w-1/2"><strong>Requirements / Notes</strong></th>
+                  <th></th>
+                  <th><strong>Active Time Event</strong></th>
+                  <th><strong>Requirements / Notes</strong></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td><Checkbox id="m-mc-15" /></td>
                   <td>Teach Me, Mogster! (My First Synthesis Lesson)</td>
                   <td>Plays Automatically Through Story Progression</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-16" /></td>
                   <td>Small-Town Knight in a Big City</td>
                   <td>N/A</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-17" /></td>
                   <td>Vivi's Shopping</td>
                   <td>Plays Automatically Through Story Progression</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-18" /></td>
                   <td>Steam Engine</td>
                   <td>Navigate to the Theatre District</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-19" /></td>
                   <td>What Can I Do</td>
                   <td>Plays Automatically Through Story Progression</td>
                 </tr>
                 <tr>
+                  <td><Checkbox id="m-mc-20" /></td>
                   <td>Baku and his Crew</td>
                   <td>Leave the Tantalus Hideout</td>
                 </tr>
