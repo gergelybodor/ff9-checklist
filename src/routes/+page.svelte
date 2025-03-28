@@ -13,6 +13,11 @@
   } from '$lib';
 </script>
 
+<svelte:head>
+  <title>Final Fantasy IX Trophy Guide Checklist</title>
+  <meta name="description" content="Final Fantasy IX Trophy Guide Checklist" />
+</svelte:head>
+
 <div class="grid grid-cols-2 gap-x-8 gap-y-4 p-8">
   <TreasuresIntro />
   <MissablesIntro />
