@@ -621,7 +621,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><Checkbox id="t-4-24" /></td>
+          <td><Checkbox id="t-4-24" point={2} /></td>
           <td>Ocean Bubble Set 1</td>
           <td><strong><span class="text-category-ocean-bubble">Ocean Bubble</span></strong></td>
           <td>
@@ -633,7 +633,7 @@
           </td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-25" /></td>
+          <td><Checkbox id="t-4-25" point={2} /></td>
           <td>Ocean Bubble Set 2</td>
           <td><strong><span class="text-category-ocean-bubble">Ocean Bubble</span></strong></td>
           <td>
@@ -644,7 +644,7 @@
           </td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-26" /></td>
+          <td><Checkbox id="t-4-26" point={2} /></td>
           <td>Ocean Bubble Set 3</td>
           <td><strong><span class="text-category-ocean-bubble">Ocean Bubble</span></strong></td>
           <td>
@@ -655,7 +655,7 @@
           </td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-27" /></td>
+          <td><Checkbox id="t-4-27" point={2} /></td>
           <td>Ocean Bubble Set 4</td>
           <td><strong><span class="text-category-ocean-bubble">Ocean Bubble</span></strong></td>
           <td>
@@ -667,7 +667,7 @@
           </td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-28" /></td>
+          <td><Checkbox id="t-4-28" point={2} /></td>
           <td>Ocean Bubble Set 5</td>
           <td><strong><span class="text-category-ocean-bubble">Ocean Bubble</span></strong></td>
           <td>
@@ -724,7 +724,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><Checkbox id="t-4-29" /></td>
+          <td><Checkbox id="t-4-29" point={2} /></td>
           <td>Mountain Wall Crack 1</td>
           <td><strong><span class="text-category-wall-crack">Wall Crack</span></strong></td>
           <td>
@@ -735,7 +735,7 @@
           </td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-30" /></td>
+          <td><Checkbox id="t-4-30" point={2} /></td>
           <td>Mountain Wall Crack 2</td>
           <td><strong><span class="text-category-wall-crack">Wall Crack</span></strong></td>
           <td>
@@ -745,7 +745,7 @@
           </td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-31" /></td>
+          <td><Checkbox id="t-4-31" point={2} /></td>
           <td>Mountain Wall Crack 3</td>
           <td><strong><span class="text-category-wall-crack">Wall Crack</span></strong></td>
           <td>
@@ -864,145 +864,145 @@
       </thead>
       <tbody>
         <tr>
-          <td><Checkbox id="t-4-34" /></td>
+          <td><Checkbox id="t-4-34" point={2} /></td>
           <td>Streamside</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>2 Elixirs, 3 Hi-Potions, 4 Ethers, 2 Germinas Boots</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-35" /></td>
+          <td><Checkbox id="t-4-35" point={2} /></td>
           <td>Between Mountains</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>5 Potions, 5 Hi-Potions, 2 Tents, 2 Cotton Robes</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-36" /></td>
+          <td><Checkbox id="t-4-36" point={2} /></td>
           <td>Uncultivated Land</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>10 Antidote, 1 Jade Armlet, 3 Wing Edge, 1 Cargo Ship Tetra Card</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-37" /></td>
+          <td><Checkbox id="t-4-37" point={2} /></td>
           <td>Healing Shores</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>The Reef Chocobo</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-38" /></td>
+          <td><Checkbox id="t-4-38" point={2} /></td>
           <td>Abandoned Reach</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>9 Phoenix Pinions, 5 Phoenix Downs, 12 Peridots, 1 Diamond Gloves</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-39" /></td>
+          <td><Checkbox id="t-4-39" point={2} /></td>
           <td>Cold Field</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>5 Echo Screens, 7 Hi-Potions, 3 Tents, 1 Theater Ship Tetra Card</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-40" /></td>
+          <td><Checkbox id="t-4-40" point={2} /></td>
           <td>Forgotten Lagoon</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>8 Gysahl Greens, 5 Ether, 7 Hi-Potions, 1 Dragon's Claws</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-41" /></td>
+          <td><Checkbox id="t-4-41" point={2} /></td>
           <td>Faraway Lagoon</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>37 Potions, 6 Magic Tags, 1 Shield Armor, 1 Gaia Gear</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-42" /></td>
+          <td><Checkbox id="t-4-42" point={2} /></td>
           <td>Abandoned Lagoon</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>6 Soft, 4 Ether, 1 Feather Boots, 1 N-Kai Armlet</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-43" /></td>
+          <td><Checkbox id="t-4-43" point={2} /></td>
           <td>Bird's Eye Lagoon</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>8 Potions, 4 Phoenix Downs, 3 Ethers, 1 Magician Robe</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-44" /></td>
+          <td><Checkbox id="t-4-44" point={2} /></td>
           <td>Small Beach</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>4 Remedies, 2 Elixirs, 8 Rising Suns, 1 Oak Staff</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-45" /></td>
+          <td><Checkbox id="t-4-45" point={2} /></td>
           <td>Dawn Lagoon</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>The Mountain Chocobo</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-46" /></td>
+          <td><Checkbox id="t-4-46" point={2} /></td>
           <td>Forbidden Forest</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>7 Ethers, 2 Elixirs, 10 Wing Edges, 1 High Mage Staff</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-47" /></td>
+          <td><Checkbox id="t-4-47" point={2} /></td>
           <td>Green Plains</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>The Sea Chocobo</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-48" /></td>
+          <td><Checkbox id="t-4-48" point={2} /></td>
           <td>Dusk Plains</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>12 Phoenix Downs, 14 Ores, 1 Kaiser Knuckles, 1 Iron Man Tetra Card</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-49" /></td>
+          <td><Checkbox id="t-4-49" point={2} /></td>
           <td>Forgotten Plains</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>17 Ore, 5 Ethers, 14 Opals, 1 Demon Mail</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-50" /></td>
+          <td><Checkbox id="t-4-50" point={2} /></td>
           <td>Sea At Dusk</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>15 Phoenix Pinions, 1 White Robe, 1 Diamond, 1 Masamune Tetra Card</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-51" /></td>
+          <td><Checkbox id="t-4-51" point={2} /></td>
           <td>Ocean</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>27 Ore, 1 Light Robe, 1 Whale Whisker, 1 Alexander Tetra Card</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-52" /></td>
+          <td><Checkbox id="t-4-52" point={2} /></td>
           <td>Cold Lagoon</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>11 Peridots, 9 Opals, 15 Sapphires, 19 Topazes</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-53" /></td>
+          <td><Checkbox id="t-4-53" point={2} /></td>
           <td>Mist Ocean</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>The Sky Chocobo</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-54" /></td>
+          <td><Checkbox id="t-4-54" point={2} /></td>
           <td>Outer Island</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>21 Amethysts, 16 Garnets, 1 Genji Armor, 1 Ragnarok</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-55" /></td>
+          <td><Checkbox id="t-4-55" point={2} /></td>
           <td>Outer Island 2</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>11 Sapphires, 1 Circlet, 1 Pumice Piece, 1 Hilda Garde III Tetra Card</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-56" /></td>
+          <td><Checkbox id="t-4-56" point={2} /></td>
           <td>Fairy Island</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>33 Potions, 15 Annoytments, 1 Holy Miter, 1 Dark Matter Tetra Card</td>
         </tr>
         <tr>
-          <td><Checkbox id="t-4-57" /></td>
+          <td><Checkbox id="t-4-57" point={2} /></td>
           <td>Forgotten Island</td>
           <td><strong><span class="text-category-chocograph">Chocograph</span></strong></td>
           <td>1 Ribbon, 1 Rebirth Ring, 13 Amethysts, 1 Ark Tetra Card</td>

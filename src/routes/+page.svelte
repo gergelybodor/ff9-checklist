@@ -9,7 +9,8 @@
     TreasuresDisk3,
     TreasuresDisk4,
     MissablesDisk4,
-    MissablesDisk3
+    MissablesDisk3,
+    Divider
   } from '$lib';
 </script>
 
@@ -22,29 +23,29 @@
   <TreasuresIntro />
   <MissablesIntro />
 
-  <div class="bg-base-200 sticky top-0 z-10 col-span-2">
-    <div class="divider">Disk 1</div>
+  <div class="sticky top-0 z-10 col-span-2">
+    <Divider label="Disk 1" />
   </div>
 
   <TreasuresDisk1 />
   <MissablesDisk1 />
 
-  <div class="bg-base-200 sticky top-0 z-10 col-span-2">
-    <div class="divider">Disk 2</div>
+  <div class="sticky top-0 z-10 col-span-2">
+    <Divider label="Disk 2" />
   </div>
 
   <TreasuresDisk2 />
   <MissablesDisk2 />
 
-  <div class="bg-base-200 sticky top-0 z-10 col-span-2">
-    <div class="divider">Disk 3</div>
+  <div class="sticky top-0 z-10 col-span-2">
+    <Divider label="Disk 3" />
   </div>
 
   <TreasuresDisk3 />
   <MissablesDisk3 />
 
-  <div class="bg-base-200 sticky top-0 z-10 col-span-2">
-    <div class="divider">Disk 4</div>
+  <div class="sticky top-0 z-10 col-span-2">
+    <Divider label="Disk 4" />
   </div>
 
   <TreasuresDisk4 />

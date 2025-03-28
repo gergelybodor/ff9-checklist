@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 
-  let { id }: { id: string } = $props();
+  let { id, point = 1 }: { id: string; point?: number } = $props();
   let checked = $state(false);
 
   const storageKey = `checkbox-${id}`;
@@ -45,4 +45,10 @@
   });
 </script>
 
-<input type="checkbox" class="checkbox checkbox-sm checkbox-primary" {id} bind:checked />
+<input
+  type="checkbox"
+  class="checkbox checkbox-sm checkbox-primary"
+  {id}
+  bind:checked
+  data-point={point}
+/>
