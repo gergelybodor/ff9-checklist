@@ -414,7 +414,7 @@
           <td>
             Once you defeat <strong>Lich</strong>, what you'll need to do is go to the right side of
             his room and you will notice a <strong>"!"</strong> icon. Press
-            <ButtonCrossIcon className="inline" />
+            <ButtonCrossIcon className="inline align-text-top" />
             and you will be granted a text box about the history of the name of Excalibur II. After that,
             you will be awarded this item.
             <strong

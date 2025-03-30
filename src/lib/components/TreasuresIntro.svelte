@@ -5,7 +5,11 @@
 <div class="flex flex-col gap-8 text-xs">
   <div class="flex flex-col gap-1">
     <h1 class="text-3xl">Final Fantasy IX - Rank S Treasure Hunter Guide</h1>
-    <a href="https://psnprofiles.com/guide/8130-final-fantasy-ix-rank-s-treasure-hunter-guide">
+    <a
+      href="https://psnprofiles.com/guide/8130-final-fantasy-ix-rank-s-treasure-hunter-guide"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
       https://psnprofiles.com/guide/8130-final-fantasy-ix-rank-s-treasure-hunter-guide
     </a>
   </div>

@@ -862,8 +862,8 @@
           <td>Iron Helmet</td>
           <td><strong><span class="text-category-treasure-chest">Treasure Chest</span></strong></td>
           <td>
-            In the <strong><em>second</em></strong><strong><em>storage room area</em></strong>, the
-            ether can be found on top of the storage boxes.
+            In the <strong><em>second storage room area</em></strong>, the ether can be found on top
+            of the storage boxes.
           </td>
         </tr>
         <tr>
@@ -871,8 +871,8 @@
           <td>Leather Wrist</td>
           <td><strong><span class="text-category-treasure-chest">Treasure Chest</span></strong></td>
           <td>
-            In the <strong><em>second</em></strong><strong><em>storage room area</em></strong>, the
-            ether can be found in the middle of the room.
+            In the <strong><em>second storage room area</em></strong>, the ether can be found in the
+            middle of the room.
           </td>
         </tr>
         <tr>

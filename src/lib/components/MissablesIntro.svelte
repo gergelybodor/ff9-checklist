@@ -7,6 +7,8 @@
     <h1 class="text-3xl">Final Fantasy IX - Missable Trophies/Collectibles Guide</h1>
     <a
       href="https://psnprofiles.com/guide/7973-final-fantasy-ix-missable-trophiescollectibles-guide#10-open-world-disc-2"
+      target="_blank"
+      rel="noreferrer noopener"
     >
       https://psnprofiles.com/guide/7973-final-fantasy-ix-missable-trophiescollectibles-guide#10-open-world-disc-2
     </a>
