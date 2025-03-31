@@ -3,7 +3,10 @@
 </script>
 
 <div class="flex flex-col gap-8 text-xs">
-  <h3 class="text-2xl">Alexandria Town Area (<span class="text-error">Disc 1 Only</span>)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Alexandria (Town Area and Castle)</h4>
+    <h3 class="text-2xl">Alexandria Town Area (<span class="text-error">Disc 1 Only</span>)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -302,7 +305,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Alexandria Castle (<span class="text-error">Disc 1 Only</span>)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Alexandria (Town Area and Castle)</h4>
+    <h3 class="text-2xl">Alexandria Castle (<span class="text-error">Disc 1 Only</span>)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -369,7 +375,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">The "Prima Vista" (<span class="text-error">Disc 1* Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">The Prima Vista</h4>
+      <h3 class="text-2xl">The "Prima Vista" (<span class="text-error">Disc 1* Only</span>)</h3>
+    </div>
     <p class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -437,7 +446,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">The "Prima Vista" (<span class="text-error">Disc 1* Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">The Prima Vista</h4>
+      <h3 class="text-2xl">The "Prima Vista" (<span class="text-error">Disc 1* Only</span>)</h3>
+    </div>
     <p class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -560,7 +572,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Ice Cavern (<span class="text-error">Disc 1 and 2 Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">The Ice Cavern</h4>
+      <h3 class="text-2xl">Ice Cavern (<span class="text-error">Disc 1 and 2 Only</span>)</h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -660,9 +675,12 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">
-      Observatory Mountain (<span class="text-error">Discs 1, 2, and 3 Only</span>)
-    </h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">The Observatory Mountain</h4>
+      <h3 class="text-2xl">
+        Observatory Mountain (<span class="text-error">Discs 1, 2, and 3 Only</span>)
+      </h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -708,7 +726,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">The Village of Dali (Discs 1, 2, 3, and 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">The Village of Dali</h4>
+    <h3 class="text-2xl">The Village of Dali (Discs 1, 2, 3, and 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -768,9 +789,12 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">
-      The Village of Dali - Underground Area (<span class="text-error">Disc 1 Only</span>)
-    </h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">The Village of Dali</h4>
+      <h3 class="text-2xl">
+        The Village of Dali - Underground Area (<span class="text-error">Disc 1 Only</span>)
+      </h3>
+    </div>
     <p>This is the area where you search for Vivi throughout the main story.</p>
   </div>
 
@@ -897,7 +921,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Lindblum (<span class="text-error">Disc 1 Only</span>)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Lindblum</h4>
+    <h3 class="text-2xl">Lindblum (<span class="text-error">Disc 1 Only</span>)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -1119,9 +1146,101 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">
-      Bohden Archway (<span class="text-error">Discs 1, 2, and 3 Only</span>)
-    </h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Qu's Marsh</h4>
+      <h3 class="text-2xl">Qu's Marsh (Discs 1, 2, 3, and 4)</h3>
+    </div>
+    <p>
+      All items that are gathered here are linked to capturing the frogs that reside around the
+      Marsh area. For more information on capturing frogs, then refer to
+      <TrophyBronzeIcon className="inline" />
+      <a
+        href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#14-frog-wrangler"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        Frog Wrangler
+      </a>
+      .
+    </p>
+  </div>
+
+  <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
+    <table class="table-xs table">
+      <colgroup>
+        <col style="width: 5%" />
+        <col style="width: 20%" />
+        <col style="width: 20%" />
+        <col style="width: 55%" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Item</th>
+          <th>Category</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><Checkbox id="t-1-120" /></td>
+          <td>Ore</td>
+          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
+          <td>This is given to you by Quale after successfully capturing 2 frogs.</td>
+        </tr>
+        <tr>
+          <td><Checkbox id="t-1-121" /></td>
+          <td>Ether</td>
+          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
+          <td>This is given to you by Quale after successfully capturing 5 frogs.</td>
+        </tr>
+        <tr>
+          <td><Checkbox id="t-1-122" /></td>
+          <td>Silk Robe</td>
+          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
+          <td>This is given to you by Quale after successfully capturing 9 frogs.</td>
+        </tr>
+        <tr>
+          <td><Checkbox id="t-1-123" /></td>
+          <td>Elixir</td>
+          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
+          <td>This is given to you by Quale after successfully capturing 15 frogs.</td>
+        </tr>
+        <tr>
+          <td><Checkbox id="t-1-124" /></td>
+          <td>Silver Fork</td>
+          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
+          <td>This is given to you by Quale after successfully capturing 23 frogs.</td>
+        </tr>
+        <tr>
+          <td><Checkbox id="t-1-125" /></td>
+          <td>Bistro Fork</td>
+          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
+          <td>This is given to you by Quale after successfully capturing 33 frogs.</td>
+        </tr>
+        <tr>
+          <td><Checkbox id="t-1-126" /></td>
+          <td>Battle Boots</td>
+          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
+          <td>This is given to you by Quale after successfully capturing 45 frogs.</td>
+        </tr>
+        <tr>
+          <td><Checkbox id="t-1-127" /></td>
+          <td>Gastro Fork</td>
+          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
+          <td>This is given to you by Quale after successfully capturing 99 frogs.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="flex flex-col gap-4">
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">South Gate</h4>
+      <h3 class="text-2xl">
+        Bohden Archway (<span class="text-error">Discs 1, 2, and 3 Only</span>)
+      </h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1174,7 +1293,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Bohden Gate (<span class="text-error">Discs 1, 2, and 3 Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">South Gate</h4>
+      <h3 class="text-2xl">Bohden Gate (<span class="text-error">Discs 1, 2, and 3 Only</span>)</h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1245,7 +1367,12 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Treno Archway (<span class="text-error">Discs 1, 2, and 3 Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">South Gate</h4>
+      <h3 class="text-2xl">
+        Treno Archway (<span class="text-error">Discs 1, 2, and 3 Only</span>)
+      </h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1316,9 +1443,12 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">
-      Dali/Treno Gate (<span class="text-error">Discs 1, 2, and 3 Only</span>)
-    </h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">South Gate</h4>
+      <h3 class="text-2xl">
+        Dali/Treno Gate (<span class="text-error">Discs 1, 2, and 3 Only</span>)
+      </h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1360,7 +1490,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Gizmaluke's Grotto (Discs 1, 2, 3, and 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Gizmaluke's Grotto</h4>
+    <h3 class="text-2xl">Gizmaluke's Grotto (Discs 1, 2, 3, and 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -1404,7 +1537,12 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Melda Archway (<span class="text-error">Discs 1, 2, and 3 Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">North Gate</h4>
+      <h3 class="text-2xl">
+        Melda Archway (<span class="text-error">Discs 1, 2, and 3 Only</span>)
+      </h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1457,9 +1595,12 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">
-      Burmecia Archway (<span class="text-error">Discs 1, 2, and 3 Only</span>)
-    </h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">North Gate</h4>
+      <h3 class="text-2xl">
+        Burmecia Archway (<span class="text-error">Discs 1, 2, and 3 Only</span>)
+      </h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1512,7 +1653,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Burmecia (Discs 1, 2, 3, and 4)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Burmecia</h4>
+      <h3 class="text-2xl">Burmecia (Discs 1, 2, 3, and 4)</h3>
+    </div>
     <p>
       It's important to note that some treasure chests here are fake and will force you into a
       battle with a Mimic. These chests do not count as treasure. So be aware whilst searching
@@ -1661,92 +1805,6 @@
               of the screen. It is located behind it.
             </div>
           </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Qu's Marsh (Discs 1, 2, 3, and 4)</h3>
-    <p>
-      All items that are gathered here are linked to capturing the frogs that reside around the
-      Marsh area. For more information on capturing frogs, then refer to
-      <TrophyBronzeIcon className="inline" />
-      <a
-        href="https://psnprofiles.com/guide/7421-final-fantasy-ix-trophy-guide#14-frog-wrangler"
-        target="_blank"
-        rel="noreferrer noopener"
-      >
-        Frog Wrangler
-      </a>
-      .
-    </p>
-  </div>
-
-  <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
-    <table class="table-xs table">
-      <colgroup>
-        <col style="width: 5%" />
-        <col style="width: 20%" />
-        <col style="width: 20%" />
-        <col style="width: 55%" />
-      </colgroup>
-      <thead>
-        <tr>
-          <th></th>
-          <th>Item</th>
-          <th>Category</th>
-          <th>Location</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><Checkbox id="t-1-120" /></td>
-          <td>Ore</td>
-          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
-          <td>This is given to you by Quale after successfully capturing 2 frogs.</td>
-        </tr>
-        <tr>
-          <td><Checkbox id="t-1-121" /></td>
-          <td>Ether</td>
-          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
-          <td>This is given to you by Quale after successfully capturing 5 frogs.</td>
-        </tr>
-        <tr>
-          <td><Checkbox id="t-1-122" /></td>
-          <td>Silk Robe</td>
-          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
-          <td>This is given to you by Quale after successfully capturing 9 frogs.</td>
-        </tr>
-        <tr>
-          <td><Checkbox id="t-1-123" /></td>
-          <td>Elixir</td>
-          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
-          <td>This is given to you by Quale after successfully capturing 15 frogs.</td>
-        </tr>
-        <tr>
-          <td><Checkbox id="t-1-124" /></td>
-          <td>Silver Fork</td>
-          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
-          <td>This is given to you by Quale after successfully capturing 23 frogs.</td>
-        </tr>
-        <tr>
-          <td><Checkbox id="t-1-125" /></td>
-          <td>Bistro Fork</td>
-          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
-          <td>This is given to you by Quale after successfully capturing 33 frogs.</td>
-        </tr>
-        <tr>
-          <td><Checkbox id="t-1-126" /></td>
-          <td>Battle Boots</td>
-          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
-          <td>This is given to you by Quale after successfully capturing 45 frogs.</td>
-        </tr>
-        <tr>
-          <td><Checkbox id="t-1-127" /></td>
-          <td>Gastro Fork</td>
-          <td><strong><span class="text-category-story-reward">Story/Reward</span></strong></td>
-          <td>This is given to you by Quale after successfully capturing 99 frogs.</td>
         </tr>
       </tbody>
     </table>

@@ -101,9 +101,9 @@
           <div>
             In the initial path that goes north and south, you will see Hippaul and his mother. Talk
             to his mother to begin a running mini-game which you need to alternate
-            <ButtonCircleIcon className="inline align-text-top" />
+            <ButtonCircleIcon className="inline align-text-top text-xs" />
             and
-            <ButtonSquareIcon className="inline align-text-top" />
+            <ButtonSquareIcon className="inline align-text-top text-xs" />
             to run. You need to get Hippaul to level 80 to earn this trophy. If you beat him via a large
             margin, it will net you 5 levels. If you beat him narrowly, it will net you 1 level.
           </div>

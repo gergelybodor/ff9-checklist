@@ -9,7 +9,10 @@
 </script>
 
 <div class="flex flex-col gap-8 text-xs">
-  <h3 class="text-2xl">Alexandria Town Area (Disc 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Alexandria (Town Area and Castle)</h4>
+    <h3 class="text-2xl">Alexandria Town Area (Disc 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -151,7 +154,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Lindblum (Disc 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Lindblum</h4>
+    <h3 class="text-2xl">Lindblum (Disc 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -201,7 +207,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Gizamaluke's Grotto (Disc 4 Only)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Gizmaluke's Grotto</h4>
+    <h3 class="text-2xl">Gizamaluke's Grotto (Disc 4 Only)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -230,7 +239,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Treno (Disc 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Treno</h4>
+    <h3 class="text-2xl">Treno (Disc 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -303,7 +315,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">"The Invincible" (Disc 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">"The Invincible" Airship</h4>
+    <h3 class="text-2xl">"The Invincible" (Disc 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -335,7 +350,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Memoria (Disc 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Memoria</h4>
+    <h3 class="text-2xl">Memoria (Disc 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -414,7 +432,7 @@
           <td>
             Once you defeat <strong>Lich</strong>, what you'll need to do is go to the right side of
             his room and you will notice a <strong>"!"</strong> icon. Press
-            <ButtonCrossIcon className="inline align-text-top" />
+            <ButtonCrossIcon className="inline align-text-top text-xs" />
             and you will be granted a text box about the history of the name of Excalibur II. After that,
             you will be awarded this item.
             <strong
@@ -434,7 +452,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Quan's Dwelling (Disc 4 Only)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Quan's Dwelling</h4>
+    <h3 class="text-2xl">Quan's Dwelling (Disc 4 Only)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -472,7 +493,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">MogNet Central (Disc 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">MogNet Central</h4>
+    <h3 class="text-2xl">MogNet Central (Disc 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -510,7 +534,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Chocobo Ocean Bubble Treasures</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Chocobo Ocean Bubbles</h4>
+      <h3 class="text-2xl">Chocobo Ocean Bubble Treasures</h3>
+    </div>
     <p>
       All of these can be found in the overworld once you have obtained the Ocean and Sea Chocobo.
       For more information on obtaining the these types of Chocobo, then refer to
@@ -610,7 +637,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Chocobo Mountain Wall Crack Treasures</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Chocobo Mountain Wall Cracks</h4>
+      <h3 class="text-2xl">Chocobo Mountain Wall Crack Treasures</h3>
+    </div>
     <p>
       All of these can be found in the overworld once you have obtained the Mountain Chocobo. For
       more information on obtaining this type of Chocobo, then refer to
@@ -680,7 +710,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Chocobo's Air Garden (Disc 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Chocobo's Air Garden</h4>
+    <h3 class="text-2xl">Chocobo's Air Garden (Disc 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -732,7 +765,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Chocograph Treasures</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Chocograph Treasures</h4>
+      <h3 class="text-2xl">Chocograph Treasures</h3>
+    </div>
     <p>
       All of the following Items/Treasures are tied to finding all the Chocograph Treasures. for
       more information in regards to digging up Chocographs and their respective treasures, then
@@ -917,7 +953,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Chocobo's Paradise (Disc 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Chocobo's Paradise</h4>
+    <h3 class="text-2xl">Chocobo's Paradise (Disc 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">

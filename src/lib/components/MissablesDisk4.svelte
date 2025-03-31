@@ -194,9 +194,9 @@
           <p>
             Occasionally you will come across a random encounter when navigating through forests
             that has different music and has a guy dancing between an
-            <ButtonCrossIcon className="inline align-text-top" />
-            and an <ButtonCircleIcon className="inline align-text-top" />. You need to answer the
-            questions he asks correctly through the end of the game.
+            <ButtonCrossIcon className="inline align-text-top text-xs" />
+            and an <ButtonCircleIcon className="inline align-text-top text-xs" />. You need to
+            answer the questions he asks correctly through the end of the game.
           </p>
           <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
             <table class="table-xs table text-center">

@@ -3,7 +3,10 @@
 </script>
 
 <div class="flex flex-col gap-8 text-xs">
-  <h3 class="text-2xl">Alexandria Castle (<span class="text-error">Disc 2 Only</span>)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Alexandria (Town Area and Castle)</h4>
+    <h3 class="text-2xl">Alexandria Castle (<span class="text-error">Disc 2 Only</span>)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -44,7 +47,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">The Village of Dali (<span class="text-error">Disc 2 Only</span>)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">The Village of Dali</h4>
+    <h3 class="text-2xl">The Village of Dali (<span class="text-error">Disc 2 Only</span>)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -76,7 +82,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Lindblum (<span class="text-error">Disc 2 Only</span>)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Lindblum</h4>
+    <h3 class="text-2xl">Lindblum (<span class="text-error">Disc 2 Only</span>)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -168,7 +177,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Summit Station (<span class="text-error">Discs 2 and 3 Only</span>)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Summit Station</h4>
+    <h3 class="text-2xl">Summit Station (<span class="text-error">Discs 2 and 3 Only</span>)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -205,7 +217,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Treno (<span class="text-error">Disc 2 Only</span>)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Treno</h4>
+    <h3 class="text-2xl">Treno (<span class="text-error">Disc 2 Only</span>)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -238,7 +253,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Treno (Discs 2, 3, and 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Treno</h4>
+    <h3 class="text-2xl">Treno (Discs 2, 3, and 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -453,7 +471,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Gargan Roo (Disc 2)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Gargan Roo</h4>
+    <h3 class="text-2xl">Gargan Roo (Disc 2)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -493,7 +514,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Cleyra's Trunk (<span class="text-error">Disc 2 Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Cleyra (Trunk and Settlement Area)</h4>
+      <h3 class="text-2xl">Cleyra's Trunk (<span class="text-error">Disc 2 Only</span>)</h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -723,7 +747,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Cleyra Settlement (<span class="text-error">Disc 2 Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Cleyra (Trunk and Settlement Area)</h4>
+      <h3 class="text-2xl">Cleyra Settlement (<span class="text-error">Disc 2 Only</span>)</h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -992,7 +1019,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Pinnacle Rocks (<span class="text-error">Disc 2 Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Pinnacle Rocks</h4>
+      <h3 class="text-2xl">Pinnacle Rocks (<span class="text-error">Disc 2 Only</span>)</h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1073,7 +1103,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Fossil Roo (<span class="text-error">Disc 2 Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Fossil Roo</h4>
+      <h3 class="text-2xl">Fossil Roo (<span class="text-error">Disc 2 Only</span>)</h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1161,7 +1194,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Conde Petie (<span class="text-error">Discs 2 and 3 Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Conde Petie</h4>
+      <h3 class="text-2xl">Conde Petie (<span class="text-error">Discs 2 and 3 Only</span>)</h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1235,7 +1271,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Black Mage Village (Discs 2, 3, and 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Black Mage Village</h4>
+    <h3 class="text-2xl">Black Mage Village (Discs 2, 3, and 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -1318,9 +1357,12 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">
-      Conde Petie Mountain Path (<span class="text-error">Discs 2 and 3 Only</span>)
-    </h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Conde Petie Mountain Path</h4>
+      <h3 class="text-2xl">
+        Conde Petie Mountain Path (<span class="text-error">Discs 2 and 3 Only</span>)
+      </h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1438,7 +1480,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Madain Sari (Discs 2, 3, and 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Madain Sari</h4>
+    <h3 class="text-2xl">Madain Sari (Discs 2, 3, and 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
@@ -1536,7 +1581,10 @@
   </div>
 
   <div class="flex flex-col gap-4">
-    <h3 class="text-2xl">Iifa Tree (<span class="text-error">Disc 2 Only</span>)</h3>
+    <div class="flex flex-col gap-2">
+      <h4 class="text-primary font-bold uppercase">Iifa Tree</h4>
+      <h3 class="text-2xl">Iifa Tree (<span class="text-error">Disc 2 Only</span>)</h3>
+    </div>
     <div class="alert alert-error">
       This location/area will be "locked away" later on in the game due to story progression. It's
       best to get most if not all Items/Treasures here if possible before moving on too far.
@@ -1645,7 +1693,10 @@
     </table>
   </div>
 
-  <h3 class="text-2xl">Quan's Dwelling (Discs 2, 3, and 4)</h3>
+  <div class="flex flex-col gap-2">
+    <h4 class="text-primary font-bold uppercase">Quan's Dwelling</h4>
+    <h3 class="text-2xl">Quan's Dwelling (Discs 2, 3, and 4)</h3>
+  </div>
 
   <div class="rounded-box border-base-content/5 bg-base-100 overflow-x-auto border">
     <table class="table-xs table">
